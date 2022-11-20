@@ -1,0 +1,89 @@
+.App {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+}
+
+.form-view {
+    width: inherit;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 600px;
+    border: 1px solid black;
+}
+
+#input-box {
+    height: 30px;
+    width: 300px;
+    outline: none;
+    text-indent: 10px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    height: 100px;
+    cursor: pointer;
+}
+
+.nav-btn {
+    height: inherit;
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-list-view {
+    width: inherit;
+    height: 500px;
+    position: absolute;
+}
+
+.all {
+    background-color: #8B7E74;
+}
+
+.active {
+    background-color:#C7BCA1;
+}
+
+.done {
+    background-color:#F1D3B3;
+}
+
+/* ALL */ 
+[data-all="hidden"] {
+    visibility: hidden;
+    content-visibility: hidden;
+}
+[data-all="visible"] {
+    visibility: visible;
+    content-visibility: visible;
+}
+
+/* ACTIVE */ 
+[data-active="hidden"] {
+    visibility: hidden;
+    content-visibility: hidden;
+}
+[data-active="visible"] {
+    visibility: visible;
+    content-visibility: visible;
+}
+
+/* DONE */ 
+[data-done="hidden"] {
+    visibility: hidden;
+    content-visibility: hidden;
+}
+
+[data-done="visible"] {
+    visibility: visible;
+    content-visibility: visible;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="App">
+        <div class="todo-list-view">
+            <div class="nav">
+                <div id="ALL" class="nav-btn all">ALL</div>
+                <div id="ACTIVE" class="nav-btn active">ACTIVE</div>
+                <div id="DONE" class="nav-btn done">DONE</div>
+            </div>
+
+            <div id="ALL-VIEW" data-all="visible" class="todo-list-view all">ALL</div> 
+            <div id="ACTIVE-VIEW" data-active="hidden" class="todo-list-view active">ACTIVE</div>
+            <div id="DONE-VIEW" data-done="hidden" class="todo-list-view done">DONE</div>
+            <div class="form-view">
+                <form id="form">
+                    <input id="input-box" type="text" placeholder="add your todo">
+                </form>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </div>
+</body>
+</html>
